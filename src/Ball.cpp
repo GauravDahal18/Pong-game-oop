@@ -2,7 +2,7 @@
 #include <lib/Constants.h>
 #include <raylib.h>
 
-Ball::Ball() :x(0.0f),y(0.0f), radius(18.0f), speed_x(7.0f), speed_y(7) {
+Ball::Ball() :x(0.0f),y(0.0f), radius(18.0f), speed_x(10.0f), speed_y(10.0f) {
     ResetBall();
 }
 

@@ -1,17 +1,17 @@
-#ifndef AIPLAYER_H
-#define AIPLAYER_H
+#ifndef COMPUTER_H
+#define COMPUTER_H
 
 #include "Player.h"
 
-class AIPlayer : public Player
+class ComputerOpponent : public Player
 {
 private:
     float targetY;
     float currentSpeed;
 
 public:
-    AIPlayer();
+    ComputerOpponent();
     void Update(Ball& ball) override;
 };
 
-#endif // AIPLAYER_H
+#endif 
